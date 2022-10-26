@@ -18,5 +18,3 @@ Here is the repository structure:
     ├── exercises
     └── project
 ```
-
-sls config credentials --provider aws --key AKIA6BX5PU4YUYRMPPH5 --secret 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 --profile serverless --override
