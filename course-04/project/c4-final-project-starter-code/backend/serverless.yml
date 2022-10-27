@@ -1,5 +1,5 @@
 # TODO: Change the name of the org 
-org: jediel
+org: darylemanuella
 app: serverless-todo-app
 service: serverless-todo-app
 
@@ -25,9 +25,9 @@ provider:
   environment:
     TODOS_TABLE: Todos-${self:provider.stage}
     TODOS_CREATED_AT_INDEX: CreatedAtIndex
-    ATTACHMENT_S3_BUCKET: serverless-c4-todo-images-jediel-${self:provider.stage}
+    ATTACHMENT_S3_BUCKET: serverless-c4-todo-images-darylemanuella-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
-    AUTH_0_SECRET_ID: YtYVHJClF5dHbNauGTfFaj_Wok2kIJ_q5DeE-BIUpHF7xx2NF7uvUzmMOOWTiVuI
+    AUTH_0_SECRET_ID: L99XEfrTh0owgSC0Ed0P41lMJZt454zTrhMtjvqwJZoG9C53h0BqdXcmM2WdtxRF
 
   logs:
     # Enable API Gateway logs
